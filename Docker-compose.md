@@ -22,5 +22,18 @@ Docker as a platform manages the lifecycle of your container.
    b. Need to consider dependencies while launching containers/microservices.
 4. If the developer wants to test his code, he doesn't need to deploy his code to kubernetes cluster to test on his local machine.
 5. Yaml is a standard that is backwards compatible or mostly compatible.
+6. The developer only need docker compose up command to run the containers.
+
+## About Docker Compose
+1. Docker compose is not a replacement to docker.
+2. You will still need dockerfiles which are needed for building images.
+
+## Key Commands
+```bash
+docker compose up
+docker compose down
+docker compose logs
+docker compose ps
+```
 
 
